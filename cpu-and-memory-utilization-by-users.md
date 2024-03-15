@@ -18,14 +18,11 @@ ps aux | awk '$1 == "mysql" { mem += $4 } END { print "MySQL Memory Usage:", mem
 ```
 
 
-CPU Utilizaiton of All Users
-============================
+CPU and Memory Utilizaiton of All Users
+=======================================
 ```
 ps aux | awk 'NR > 1 { cpu[$1] += $3 } END { for (user in cpu) print user, ":", cpu[user] "% CPU"}'
 ```
-
-Memory Utilization Of All Users
-===============================
 ```
 ps aux | awk 'NR > 1 { mem[$1] += $4 } END { for (user in mem) print user, ":", mem[user] "% Memory"}'
 ```
