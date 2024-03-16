@@ -1,4 +1,4 @@
-1. Open bash profile. 
+1. Open the bash profile. 
 ```
 vim ~/.bashrc
 ```
@@ -13,3 +13,8 @@ alias kn='k config set-context --current --namespace'
 3. Reload the bash profile.
 ```
 source ~/.bashrc
+```
+4. Now try it.
+```
+kub<tab> get pod<tab><tab>
+```
