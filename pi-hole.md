@@ -7,7 +7,7 @@ docker pull pihole/pihole:latest
 sudo systemctl stop systemd-resolved
 sudo systemctl disable systemd-resolved
 ```
-3. Create the docker-compose file and past the following conents.
+3. Create the docker-compose file and past the following contents.
 ```
 vim docker-compose.yml
 ```
