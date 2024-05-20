@@ -1,4 +1,5 @@
-Root CA Certificate - AAACertificateServices.crt
-Intermediate CA Certificate - USERTrustRSAAAACA.crt
-Intermediate 2 CA Certificate - SectigoRSADomainValidationSecureServerCA.crt
+SSL Certificate Order: 
 Your PositiveSSL Certificate - www_memoportal_net.crt
+Intermediate 2 CA Certificate - SectigoRSADomainValidationSecureServerCA.crt
+Intermediate 1 CA Certificate - USERTrustRSAAAACA.crt
+Root CA Certificate - AAACertificateServices.crt
