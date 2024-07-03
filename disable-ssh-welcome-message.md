@@ -1,4 +1,5 @@
-# Disable SSH Welcome Message
+# Disable SSH Welcome Message  
+Ref: https://ubuntushell.com/disable-ssh-welcome-message/
 
 To suppress a welcome message, begin by opening your terminal and modifying the /etc/ssh/sshd_config file with your preferred text editor.
 ```
